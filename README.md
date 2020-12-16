@@ -1,5 +1,8 @@
 # NanoSDR
 
+## Download link :
+
+
 ## Applications
 
 ### Introduction
@@ -78,3 +81,14 @@ This tool has not been tested due to lack of time ...
 #### dump1090 (/usr/bin/readsb)
 https://github.com/Mictronics/readsb  
 Note : original executable "dump1090" as been renamed by the author. Use `readsb` command instead.
+
+## Thank you !  
+First, thanks to the authors of those nice SDR applications !  
+
+Thank you for giving your time testing the nanoSDR image and providing suggestions and ideas:
+- F4GKR 
+- F5OEO  
+- F5OZP 
+- LamaBleu
+
+
