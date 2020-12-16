@@ -96,6 +96,9 @@ This is a full version of FFMPEG including all available supported formats.
 Please report to the author's repository for GPU-accelerated decoders/encoders use.
 Since it's relies on hardware for acceleration, you have to run it as `sudo` user.
 
+#### multimon-ng 1.1.8
+https://github.com/EliasOenal/multimon-ng
+
 #### rtl_433 (soapy support)
 https://github.com/merbanan/rtl_433
 
