@@ -9,7 +9,7 @@ Take care to use adequate image since hardware is not the same for Nano-2GB and 
 ## Default user
 Default user is `ubuntu` , default password : `ubuntu`  
 First boot is longer than usual since the Nano needs to recreate SSH keys, and expand filesystem partition to maximum available size.  
-Once session is openend feel free to change locale settings and keyboard mapping.  
+Once session is opened feel free to change locale settings and keyboard mapping.  
 Pre-installed languages/keyboards : english-US, french, german, spanish.  
 
 ## Installed applications
@@ -22,7 +22,7 @@ Feel free to install SoapySDR module corresponding to your device if not yet ins
 
 #### SoapySDR
 Current version installed on NanoSDR is v0.8  
-Supported modules are : BladeRF, plutoSDR, RTLSDR, SDRPlay, SoapyRemote
+Supported modules are : BladeRF, plutoSDR, RTLSDR, SDRPlay, Airspy, SoapyRemote
 
 ```
 ######################################################
@@ -35,11 +35,13 @@ ABI Version: v0.8
 Install root: /usr/local
 Search path:  /usr/local/lib/SoapySDR/modules0.8
 Module found: /usr/local/lib/SoapySDR/modules0.8/libPlutoSDRSupport.so (0.2.0-6e2ae74)
+Module found: /usr/local/lib/SoapySDR/modules0.8/libairspySupport.so   (0.1.2-10d697b)
 Module found: /usr/local/lib/SoapySDR/modules0.8/libbladeRFSupport.so  (0.4.1-1c1e8aa)
 Module found: /usr/local/lib/SoapySDR/modules0.8/libremoteSupport.so   (0.6.0-c09b2f1)
 Module found: /usr/local/lib/SoapySDR/modules0.8/librtlsdrSupport.so   (0.3.1-bec4f05)
 Module found: /usr/local/lib/SoapySDR/modules0.8/libsdrPlaySupport.so  (0.3.0-8c4e330)
-Available factories... bladerf, plutosdr, remote, rtlsdr, sdrplay
+Available factories... airspy, bladerf, plutosdr, remote, rtlsdr, sdrplay
+....
 ```
 
 #### GNUradio 3.8.2
@@ -49,9 +51,12 @@ gr-iio module (PlutoSDR support) is also installed.
 #### osmocom & gr-osmocom 
 - built-in source types: osmosdr rtl uhd plutosdr miri rfspace soapy redpitaya spyserver    
 
-Specific compilation with plutoSDR and SpyserverClient  
+Specific compilation with plutoSDR and Spyserver client  
 https://github.com/dk2ro/gr-osmosdr-pluto-spyserver
 
+Please notice that osmocom is not really maintened, hopefully some forks are working well.  
+
+Spyserver client might crash GQRX if incorrect samplerate is set.  
 
 #### GQRX 2.14.2-4
 This is the latest version compiled from sources : https://github.com/csete/gqrx
@@ -73,8 +78,9 @@ Compiled from sources available here: https://physics.princeton.edu/pulsar/k1jt/
 
 #### LuaRadio 0.8
 LuaRadio can be used to rapidly prototype software radios, modulation/demodulation utilities, and signal processing experiments. It can also be embedded into existing radio applications to serve as a user scriptable engine for signal processing.
-LuaRadio is very similar to GNUradion using blocks, sources, sinks, except it use scripts.  
-Very nice examples are provided on the website for RTLSDR device, can be adapted to other devices through SoapySDR.
+LuaRadio is very similar to GNUradio using blocks, sources, sinks, except it use scripts (no GUI).  
+
+Very nice and functional examples are provided on the website &github for RTLSDR device, can be easily adapted to other devices.
 Website : https://luaradio.io  
 
 #### RTLSDR_Airband
@@ -82,7 +88,7 @@ https://github.com/szpajder/RTLSDR-Airband/
 
 Compiled with following specific options : `PLATFORM= armv8-generic make NFM=1 PULSE=1 WITH_RTLSDR=1 WITH_SOAPYSDR=1` 
 Default configuration file is : /usr/local/etc/rtl_airband.conf  
-To use your own configuration file use -c parameter followed by fulle path to your customizeed file.  
+To use your own configuration file use -c parameter followed by full path to your customized config file.  
 
 #### FFMPEG (GPU acceleration)
 https://github.com/jocover/jetson-ffmpeg  
@@ -92,6 +98,9 @@ Since it's relies on hardware for acceleration, you have to run it as `sudo` use
 
 #### rtl_433 (soapy support)
 https://github.com/merbanan/rtl_433
+
+For PlutoSDR run : `rtl_433 -d plutosdr ....`
+
 #### rx_tools (soapy)
 https://github.com/rxseger/rx_tools
 #### tx_sdr
@@ -103,6 +112,8 @@ This tool has not been tested due to lack of time ...
 #### dump1090 (/usr/bin/readsb)
 https://github.com/Mictronics/readsb  
 Note : original executable "dump1090" as been renamed by the author. Use `readsb` command instead.
+
+For plutoSDR use :  ` dump1090 --device-type plutosdr`
 
 #### Conda installer
 Conda installer for arm64 platforms comes from conda-forge : https://github.com/conda-forge/miniforge/releases/download/4.9.2-3/Miniforge-pypy3-Linux-aarch64.sh
