@@ -104,7 +104,9 @@ This tool has not been tested due to lack of time ...
 https://github.com/Mictronics/readsb  
 Note : original executable "dump1090" as been renamed by the author. Use `readsb` command instead.
 
-
+#### Conda installer
+Conda installer for arm64 platforms comes from conda-forge : https://github.com/conda-forge/miniforge/releases/download/4.9.2-3/Miniforge-pypy3-Linux-aarch64.sh
+On the jetson nano, installation path is located in /opt directory.
 
 ## Thank you !  
 First, thanks to the authors of those nice SDR applications !  
