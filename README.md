@@ -8,14 +8,14 @@ Take care to use adequate image since hardware is not the same for Nano-2GB and 
 ## Default user
 Default user is `ubuntu` , default password : `ubuntu`  
 First boot is longer than usual since the Nano needs to recreate SSH keys, and expand filesystem partition to maximum available size.  
-Once session is openend feel free to change locale settings and keyboar mapping.  
+Once session is openend feel free to change locale settings and keyboard mapping.  
 Pre-installed languages/keyboards : english-US, french, german, spanish.  
 
 ## Installed applications
 
 ### Introduction
 Most of installed applications are supporting SoapySDR.
-However only RTLSDR and PlutoSDR support have been depply tested.  
+However only RTLSDR and PlutoSDR support have been deeply tested.  
 Feel free to install SoapySDR module corresponding to your device if not yet installed.
 
 
