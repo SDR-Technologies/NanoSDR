@@ -1,7 +1,8 @@
 # NanoSDR
 
 ## Download link
-Download image corresponding to your Jetson-Nano. 
+
+Download image corresponding to your Jetson-Nano.  
 Take care to use adequate image since hardware is not the same for Nano-2GB and nano 4GB models.
 
 
@@ -80,6 +81,8 @@ Website : https://luaradio.io
 https://github.com/szpajder/RTLSDR-Airband/
 
 Compiled with following specific options : `PLATFORM= armv8-generic make NFM=1 PULSE=1 WITH_RTLSDR=1 WITH_SOAPYSDR=1` 
+Default configuration file is : /usr/local/etc/rtl_airband.conf  
+To use your own configuration file use -c parameter followed by fulle path to your customizeed file.  
 
 #### FFMPEG (GPU acceleration)
 https://github.com/jocover/jetson-ffmpeg  
