@@ -53,7 +53,7 @@ Specific compilation with plutoSDR and SpyserverClient
 https://github.com/dk2ro/gr-osmosdr-pluto-spyserver
 
 
-#### GQRX
+#### GQRX 2.14.2-4
 This is the latest version compiled from sources : https://github.com/csete/gqrx
  
 #### SigDigger
