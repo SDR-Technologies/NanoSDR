@@ -79,11 +79,12 @@ Website : https://luaradio.io
 #### RTLSDR_Airband
 https://github.com/szpajder/RTLSDR-Airband/
 
-Compiled with specific options : `PLATFORM= armv8-generic make NFM=1 PULSE=1 WITH_RTLSDR=1 WITH_SOAPYSDR=1` 
+Compiled with following specific options : `PLATFORM= armv8-generic make NFM=1 PULSE=1 WITH_RTLSDR=1 WITH_SOAPYSDR=1` 
 
 #### FFMPEG (GPU acceleration)
 https://github.com/jocover/jetson-ffmpeg  
-This is a full version of FFMPEG including all formats available.
+This is a full version of FFMPEG including all available supported formats.
+Please report to the author's repository for GPU-accelerated decoders/encoders use.
 Since it's relies on hardware for acceleration, you have to run it as `sudo` user.
 
 #### rtl_433 (soapy support)
@@ -94,11 +95,11 @@ https://github.com/rxseger/rx_tools
 Tool for transmitting data to SDRs, based on rtl_sdr from librtlsdr, and rx_sdr from rx_tools, using the SoapySDR vendor-neutral SDR support library, intended to support a wide range of TX-capable devices.  
 https://github.com/triq-org/tx_tools
 
-This tool has not been tested due to lack of time ...
+This tool has not been tested due to lack of time ...  
+
 #### dump1090 (/usr/bin/readsb)
 https://github.com/Mictronics/readsb  
 Note : original executable "dump1090" as been renamed by the author. Use `readsb` command instead.
-
 
 
 
