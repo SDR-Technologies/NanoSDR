@@ -63,8 +63,7 @@ Available factories... airspy, bladerf, plutosdr, remote, rtlsdr, sdrplay
 ```
 
 #### GNUradio 3.8.2
-This version was installed from PPA sources  
-gr-iio module (PlutoSDR support) is also installed.  
+This version was installed and compiled using PPA sources, gr-iio module (PlutoSDR support) is also installed.  
 
 #### osmocom & gr-osmocom 
 - built-in source types: osmosdr rtl uhd plutosdr miri rfspace soapy redpitaya spyserver    
@@ -72,7 +71,7 @@ gr-iio module (PlutoSDR support) is also installed.
 Specific compilation with plutoSDR and Spyserver client  
 https://github.com/dk2ro/gr-osmosdr-pluto-spyserver
 
-Please notice that osmocom is not really maintened, hopefully some forks are working well.  
+Please note that osmocom is not really maintened, hopefully some forks are working well.  
 
 Spyserver client might crash GQRX if incorrect samplerate is set.  
 
@@ -95,8 +94,7 @@ QSSTV has been installed from Ubuntu repository, since sources are not available
 Compiled from sources available here: https://physics.princeton.edu/pulsar/k1jt/wsjtx-2.2.2.tgz
 
 #### LuaRadio 0.8
-LuaRadio can be used to rapidly prototype software radios, modulation/demodulation utilities, and signal processing experiments. It can also be embedded into existing radio applications to serve as a user scriptable engine for signal processing.
-LuaRadio is very similar to GNUradio using blocks, sources, sinks, except it use scripts (no GUI).  
+LuaRadio can be used to rapidly prototype software radio applications, modulation/demodulation utilities, and signal processing experiments. It can also be embedded into existing radio applications to serve as a user scriptable engine for signal processing. LuaRadio is very similar to GNUradio using blocks, sources, sinks, except it use scripts (no GUI).  
 
 Very nice and functional examples are provided on the website &github for RTLSDR device, can be easily adapted to other devices.
 Website : https://luaradio.io  
@@ -112,7 +110,7 @@ To use your own configuration file use -c parameter followed by full path to you
 https://github.com/jocover/jetson-ffmpeg  
 This is a full version of FFMPEG including all available supported formats.
 Please report to the author's repository for GPU-accelerated decoders/encoders use.
-Since it's relies on hardware for acceleration, you have to run it as `sudo` user.
+Since it relies on GPU hardware for acceleration, you have to run it as `sudo` user.
 
 #### multimon-ng 1.1.8
 https://github.com/EliasOenal/multimon-ng
@@ -124,6 +122,7 @@ For PlutoSDR run : `rtl_433 -d plutosdr ....`
 
 #### rx_tools (soapy)
 https://github.com/rxseger/rx_tools
+
 #### tx_sdr
 Tool for transmitting data to SDRs, based on rtl_sdr from librtlsdr, and rx_sdr from rx_tools, using the SoapySDR vendor-neutral SDR support library, intended to support a wide range of TX-capable devices.  
 https://github.com/triq-org/tx_tools
