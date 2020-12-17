@@ -16,8 +16,8 @@ Feel free to use the "Github issues" features to suggest improvements
 Download image corresponding to your Jetson-Nano.  
 Take care to use adequate image since hardware is not the same for Nano-2GB and nano 4GB models.
 
-* Image for Jetson Nano 2GB : http://community.sdrtechnologies.fr/nano/jetson-nano-hamradio-2GB.zip
-* Image for Jetson Nano 4GB : http://community.sdrtechnologies.fr/nano/jetson-nano-hamradio-4GB.zip
+* Image for Jetson Nano 2GB : http://download.sdr-technologies.fr/nano/jetson-nano-hamradio-2GB.zip
+* Image for Jetson Nano 4GB : http://download.sdr-technologies.fr/nano/jetson-nano-hamradio-4GB.zip
 
 ## Default user
 Default user is `ubuntu` , default password : `ubuntu`  
