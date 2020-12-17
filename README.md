@@ -11,7 +11,7 @@ The files are provided "as is" and we cannot commit to release regular updates, 
 
 Feel free to use the "Github issues" features to suggest improvements.
 
-!(NanoSDR_small.png?raw=true "Screen shot")
+!(https://raw.githubusercontent.com/SDR-Technologies/NanoSDR/NanoSDR_small.png?raw=true "Screen shot")
 
 ## Download link
 
