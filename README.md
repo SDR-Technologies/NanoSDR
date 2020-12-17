@@ -9,7 +9,9 @@ The images are quite big and are hosted in a public web server, please bear in m
 
 The files are provided "as is" and we cannot commit to release regular updates, but we will continue to improve it and maybe offer here scripts to update/add new features to the existing image.
 
-Feel free to use the "Github issues" features to suggest improvements 
+Feel free to use the "Github issues" features to suggest improvements.
+
+!(Screenshot from 2020-12-17 08-59-59.png?raw=true "Screen shot")
 
 ## Download link
 
