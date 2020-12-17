@@ -1,5 +1,13 @@
 # NanoSDR
 
+NanoSDR is a ready to use distribution for NVIDIA Jetson Nano 2G and 4G dedicated to amateur radio applications.
+It is based on a Ubuntu 18.04 root filesystem and LXDE desktop and comes with several popular apps compiled for the Nano.
+
+SDR-Technologies develops different SDR products based on NVIDIA embedded GPU and we have worked on this distribution to estimate the processing capabilities of these  "small" processors. Originally for internal use, the team (mainly licensed amateurs) believes this could be something useful for the community and we have decided to release the work as a set of "ready to use" SD-Cards.
+
+The images are quite big and are hosted in a public web server, please bear in mind you are about to download several gigabytes of data before being able to play with it...
+
+
 ## Download link
 
 Download image corresponding to your Jetson-Nano.  
@@ -126,9 +134,9 @@ On the jetson nano, installation path is located in /opt directory.
 First, thanks to the authors of those nice SDR applications !  
 
 Thank you for giving your time testing the nanoSDR image and providing suggestions and ideas:
-- F4GKR 
-- F5OEO  
+- F4GKR - Twitter : @sylvain_azarian
+- F5OEO - Twitter : @F5OEOEvariste
 - F5OZP 
-- LamaBleu
+- LamaBleu - Twitter : @fonera_cork
 
 
