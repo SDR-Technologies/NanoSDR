@@ -31,10 +31,10 @@ However only RTLSDR and PlutoSDR support have been deeply tested.
 Feel free to install SoapySDR module corresponding to your device if not yet installed.
 
 ### Development suite
-Gcc 7 and 8
-Cuda Toolkit version 10.2
-Boost, Volk, ....
-Git , CMake, Qt 5
+* Gcc 7 and 8
+* Cuda Toolkit version 10.2
+* Boost, Volk, ....
+* Git , CMake, Qt 5
 
 #### SoapySDR
 Current version installed on NanoSDR is v0.8  
