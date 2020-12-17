@@ -7,6 +7,9 @@ SDR-Technologies develops different SDR products based on NVIDIA embedded GPU an
 
 The images are quite big and are hosted in a public web server, please bear in mind you are about to download several gigabytes of data before being able to play with it...
 
+The files are provided "as is" and we cannot commit to release regular updates, but we will continue to improve it and maybe offer here scripts to update/add new features to the existing image.
+
+Feel free to use the "Github issues" features to suggest improvements 
 
 ## Download link
 
@@ -27,6 +30,11 @@ Most of installed applications are supporting SoapySDR.
 However only RTLSDR and PlutoSDR support have been deeply tested.  
 Feel free to install SoapySDR module corresponding to your device if not yet installed.
 
+### Development suite
+Gcc 7 and 8
+Cuda Toolkit version 10.2
+Boost, Volk, ....
+Git , CMake, Qt 5
 
 #### SoapySDR
 Current version installed on NanoSDR is v0.8  
