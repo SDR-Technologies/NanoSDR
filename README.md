@@ -78,13 +78,16 @@ https://github.com/dk2ro/gr-osmosdr-pluto-spyserver
 
 Please note that osmocom is not really maintened, hopefully some forks are working well.  
 
-Spyserver client might crash GQRX if incorrect samplerate is set.  
 
 #### GQRX 2.14.2-4
 This is the latest version compiled from sources : https://github.com/csete/gqrx
  
+Note : Spyserver client might crash GQRX if incorrect samplerate is set. Should work better on a LAN than using internet-spyservers because he needs a stable stream.
+
 #### SigDigger
 https://github.com/BatchDrake/SigDigger
+
+SigDigger is a free-as-in-freedom digital signal analyzer with an intuitive GUI that provides different capture modes (replay and real-time capture from the different SDR devices supported by SoapySDR), analysis modes (burst and streaming), signal characterization (Doppler shift, time and frequency measurements, manual and automatic parameter estimation) and fully configurable demodulators for analog audio (AM, FM and SSB), video (PAL, NTSC and custom modes) and digital modes (PSK, FSK and ASK).
 
 #### Inspectrum
 https://github.com/miek/inspectrum
