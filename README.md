@@ -71,12 +71,16 @@ Available factories... airspy, bladerf, plutosdr, remote, rtlsdr, sdrplay
 This version was installed and compiled using PPA sources, gr-iio module (PlutoSDR support) is also installed.  
 
 #### osmocom & gr-osmocom 
-- built-in source types: osmosdr rtl uhd plutosdr miri rfspace soapy redpitaya spyserver    
+ * built-in source types:
+````
+gr-osmosdr f9a99388 (0.1.5git) gnuradio 3.8.2.0
+built-in source types: file osmosdr rtl rtl_tcp uhd plutosdr miri hackrf bladerf rfspace airspy soapy redpitaya spyserver    
+````
 
 Specific compilation with plutoSDR and Spyserver client  
 https://github.com/dk2ro/gr-osmosdr-pluto-spyserver
 
-Please note that osmocom is not really maintened, hopefully some forks are working well.  
+Please note that osmocom is not really maintained with plutoSDR support, hopefully some forks are working well.  
 
 
 #### GQRX 2.14.2-4
